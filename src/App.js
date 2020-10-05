@@ -56,11 +56,11 @@ export default function App() {
 
       <p className="foot">
         <a
-          href="https://github.com/Fajeralk/Faje-s-project-plus"
+          href="https://github.com/Fajeralk/weather-react"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Open source code by
+          This project was coded by
         </a>
         Fajer alkhubaizi
       </p>
