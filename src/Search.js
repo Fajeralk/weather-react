@@ -32,6 +32,14 @@ export default function Weather() {
     <form onSubmit={handleSearch}>
       <input type="search" placeholder="Type a city" onChange={updateSearch} />
       <input type="submit" value="Search" />
+      <span className="units" id="current-temp">
+        <button type="button" className="cels">
+          °C
+        </button>
+        <button type="button" className="fah">
+          °F
+        </button>
+      </span>
     </form>
   );
 
