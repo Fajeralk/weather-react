@@ -10,8 +10,8 @@ export default function App() {
           src="https://www.thisiscolossal.com/wp-content/uploads/2010/11/four-seasons.jpg"
           alt="season change"
           className="illustration"
-          width="1100"
-          height="300"
+          width="1000"
+          height="280"
         />
         <Weather defaultCity="Portland" />
         <br />
