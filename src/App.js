@@ -6,7 +6,6 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
         <img
           src="https://www.thisiscolossal.com/wp-content/uploads/2010/11/four-seasons.jpg"
           alt="season change"
@@ -14,6 +13,8 @@ export default function App() {
           width="1100"
           height="300"
         />
+        <Weather defaultCity="Portland" />
+        <br />
 
         <footer>
           <a
@@ -21,9 +22,9 @@ export default function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            This project was coded by{" "}
+            👁 This project was coded by{" "}
           </a>
-          Fajer alkhubaizi
+          Fajer alkhubaizi 👁
         </footer>
       </div>
     </div>
