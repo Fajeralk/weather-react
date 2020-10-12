@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import Info from "./Info";
+import Icon from "./Icon";
+import ForecastPreview from "./ForecastPreview";
+import Dateformat from "./DateFormat";
+import Temperature from "./Temperature";
 import Forecast from "./Forecast";
+
 import axios from "axios";
 import "./Weather.css";
 
@@ -44,7 +49,7 @@ export default function Weather(props) {
             <div className="col-9">
               <input
                 type="search"
-                placeholder="Enter a city.."
+                placeholder="type a city.."
                 className="form-control"
                 autoFocus="on"
                 onChange={handleCityUpdate}
